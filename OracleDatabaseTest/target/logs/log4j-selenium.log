@@ -1,0 +1,52 @@
+2021-02-27 17:41:36 ERROR BaseDao:50 - Error: 
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1040)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:552)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:550)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:268)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:501)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1292)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1025)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:747)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:793)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:57)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:747)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:562)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.oracle.connection.dao.BaseDao.connectToOracleDB(BaseDao.java:46)
+	at com.oracle.connection.dao.Student_infoDao.addEmp(Student_infoDao.java:27)
+	at com.oracle.connection.tests.TEmpTest1.main(TEmpTest1.java:17)
+2021-02-27 17:42:16 INFO  BaseDao:48 - Oracle dababase connection is successful !
+2021-02-27 17:57:22 INFO  BaseDao:48 - Oracle dababase connection is successful !
+2021-02-27 18:09:27 INFO  BaseDao:48 - Oracle dababase connection is successful !
+2021-02-27 18:11:47 INFO  BaseDao:48 - Oracle dababase connection is successful !
+2021-02-27 18:13:42 INFO  BaseDao:48 - Oracle dababase connection is successful !
+2021-02-27 18:27:40 INFO  BaseDao:48 - Oracle dababase connection is successful!!!
+2021-02-27 18:29:04 INFO  BaseDao:48 - Oracle dababase connection is successful!!!
+2021-02-27 19:41:25 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-02-27 19:43:58 INFO  BaseDao:45 - Oracle dababase connection is successful!!!
+2021-02-27 19:44:49 INFO  BaseDao:45 - Oracle dababase connection is successful!!!
+2021-02-27 20:21:16 INFO  BaseDao:45 - Oracle dababase connection is successful!!!
+2021-02-27 20:24:05 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-02-27 20:59:21 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-02-27 21:01:44 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-02-27 21:03:21 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-02-27 21:06:26 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-02-27 21:07:17 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:04:23 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:40:18 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:41:47 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:44:51 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:47:00 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:48:04 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:49:50 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:55:06 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:55:36 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:56:19 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 01:59:18 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
+2021-07-18 02:01:02 INFO  BaseDao:44 - Oracle dababase connection is successful!!!
